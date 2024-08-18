@@ -1,0 +1,54 @@
+/* Sidebar styles */
+.navbar-sidebar {
+    position: fixed;
+    right: -250px;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #daa520; /* Change if needed */
+    transition: right 0.3s ease;
+    z-index: 1000;
+  }
+  
+.navbar-sidebar.open {
+    right: 0;
+}
+  
+.navbar-sidebar-content {
+    padding: 20px;
+    color: #fffaf0;
+}
+  
+.navbar-sidebar-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.navbar-sidebar-content ul li {
+    margin-bottom: 10px;
+}
+  
+.navbar-sidebar-content ul li a {
+    color: #f2f0ec;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px; /* Add padding to ensure clickable area is larger */
+    border: none; /* Ensure no border */
+    outline: none; /* Remove focus outline */
+}
+  
+.navbar-sidebar-content ul li a:hover {
+    
+    background-color: transparent; /* Ensure no background color on hover */
+    border: none; /* Ensure no border on hover */
+    outline: none; /* Remove focus outline on hover */
+}
+  
+/* Style for the sidebar icon */
+.navbar-sidebar-icon {
+    font-size: 24px;
+    color: #fffaf0;
+    cursor: pointer;
+}

@@ -1,0 +1,59 @@
+.cover-letter-container {
+  width: 600px;
+  max-width: 600px;
+  margin: auto;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: calc(100px + 2rem); /* Adjust based on the height of your navbar */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+  
+  .cover-letter-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .cover-letter-container .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .cover-letter-container .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .cover-letter-container .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .cover-letter-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d4a406;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cover-letter-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .generated-letter {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  

@@ -1,0 +1,82 @@
+/* SignUp.css */
+html, body {
+  height: 100%;
+  margin: 0;
+  
+}
+
+.signup-body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  
+}
+
+.background-video {
+  position: absolute;
+  top: 6;
+  left: 8;
+  width: 400%;
+  height: 150%;
+  object-fit: cover;
+  z-index: -1; /* Make sure it is behind the signup container */
+}
+
+.signup-container {
+  position: relative;
+  width: 100%;
+  max-width: 500px; /* Set the max-width to a medium size */
+  padding: 30px; /* Increase padding for better spacing */
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Slightly round the corners */
+  background-color: rgba(255, 255, 255, 0.9); /* Make the background slightly transparent */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1; /* Ensure it's above the video */
+  
+}
+
+.signup-container h2 {
+  margin-bottom: 20px;
+}
+
+.signup-container .form-group {
+  margin-bottom: 15px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.signup-container .form-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.signup-container .form-group input {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup-container button {
+  width: 100%;
+  padding: 12px; /* Increase padding for button */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup-container button:hover {
+  background-color: #45a049;
+}
+
+.signup-container p {
+  margin-top: 20px;
+}
